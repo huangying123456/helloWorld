@@ -10,10 +10,8 @@ public class User1 implements UserDao{
     private int age;
     private String name;
 
-    public User1(String name) {
 
-        this.name = name;
-    }
+
 
     public int getAge() {
         return age;
