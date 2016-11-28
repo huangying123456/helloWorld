@@ -6,8 +6,9 @@ import com.company.Main;
 
 public class User {
 
-    private  int  age;
-    private  String name;
+    private int age;
+    private String name;
+    private String sex;
 
     public void setAge(int age) {
         this.age = age;
@@ -26,4 +27,11 @@ public class User {
 
     }
 
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
 }
